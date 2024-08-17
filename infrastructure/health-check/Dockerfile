@@ -1,4 +1,4 @@
-FROM golang:buster
+FROM golang:1.21.12-bookworm
 LABEL MAINTAINER="Madhu Akula" INFO="Kubernetes Goat"
 
 WORKDIR /
